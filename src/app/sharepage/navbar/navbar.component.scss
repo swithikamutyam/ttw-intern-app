@@ -1,0 +1,40 @@
+.navbar
+{
+        background:none;
+}
+
+.navbar-brand
+{
+    color: #034694;
+    font-weight: bold;
+    font: italic bolder 25px Georgia, serif;
+}
+i
+{
+    font-weight: bold;
+    color: #034694;
+    font-family:Georgia, serif;
+    font-size: 35px;
+    font-style: italic;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link
+{
+    color:var(--secondary-color);
+    font-weight: 500;
+    font-size: 20px;   
+    padding: 18px;
+}
+.navbar-nav .nav-link.active-link
+{
+    
+    color:var(--primary-color);
+    font-weight: 600;
+    transition: 0.4s;
+    text-shadow: 2px 2px 4px whitesmoke;
+        
+}
+
+//#B9D9EB

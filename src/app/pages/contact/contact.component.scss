@@ -1,0 +1,133 @@
+.container
+{
+    background-position: center;
+    background-image: url(/../../assets/gifs/register-bkg1.gif);
+    border: 2px solid lightgray;
+    height:20cm;
+    border-radius: 40px;
+    width: 100%;
+}
+.top-bar
+{
+    padding-top: 1.5cm;
+    z-index: 4;
+    font-size: 0.6cm;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3.5cm;
+}
+.top-bar-items
+{
+    margin-right:5cm ;
+    color: white;
+    background-color: black;
+    display: inline;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;  
+    padding: 0.5cm;
+    cursor: pointer;
+}
+.bottom-bar
+{
+    padding-top: 1cm;
+    height: 16cm;
+}
+.bottom-bar-items
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.8cm;
+
+}
+label
+{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(3,70,148,1) 15%, rgba(28,172,120,1) 60%);
+}
+input[type = submit]
+{
+    background: linear-gradient(90deg, rgba(3,70,148,1) 15%, rgba(28,172,120,1) 60%);
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: none;
+    border-width: 0px;
+
+    &:hover, &:focus
+    {
+        outline: none;
+        border-color: transparent;
+    }
+
+}
+input
+{
+    background-color: transparent;
+    padding: 15px 0px;
+    font-size: 17px;
+    border-color: transparent;
+    border-bottom: 2px solid lightgray;
+    width: 300px;
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: gray;
+        opacity: 1; /* Firefox */
+      }
+
+    &:hover, &:focus
+    {
+        outline: none;
+        border-color: transparent;
+    border-bottom: 2px solid lightgray;
+    }
+
+}
+textarea
+{
+    background-color: transparent;
+    padding: 15px 0px;
+    font-size: 17px;
+    border-color: transparent;
+    border-bottom: 2px solid lightgray;
+    width: 300px;
+
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: gray;
+        opacity: 1; /* Firefox */
+      }
+
+    &:hover, &:focus
+    {
+        outline: none;
+        border-color: transparent;
+    border-bottom: 2px solid lightgray;
+    }
+}
+.side-by-side
+{
+    display: inline;
+}
+.right-side-component
+{
+    background-color: blue;
+    float: right;
+    border-radius: 25px;
+    z-index: 7;
+    width: 16cm;
+}
